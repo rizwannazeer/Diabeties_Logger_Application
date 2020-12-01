@@ -1,0 +1,5 @@
+{
+    "db":"mongodb+srv://Rizwan:Qwerty21@diabetes-cluster.rjojw.mongodb.net/diabetes_log",
+
+    "jwtPrivateKey":"Rizwan"
+}
