@@ -2,7 +2,7 @@ const express=require("express");
 let middlewareForValidate=require("../../middleWares/validateLog");
 let {myModel,validate}=require("../../Model/myModel");
 let auth=require("../../middleWares/auth");
-let admin=require("../../middleWares/adminAuth");
+// let admin=require("../../middleWares/adminAuth");
 
 
 let router=express.Router();
