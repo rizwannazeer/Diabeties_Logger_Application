@@ -23,13 +23,13 @@ const Charts = () => {
             {
               label: "Blood Sugar",
               data: bloodSugar,
-              backgroundColor: ["rgba(75, 192, 192, 0.6)"],
+              backgroundColor: ["rgba(242, 42, 139,0.7)"],
               borderWidth: 4
             },
             {
                 label: "Carbohydratea",
                 data: carbohydrates,
-                backgroundColor: ['rgba(54, 162, 235, 0.6)'],
+                backgroundColor: ['rgba(242, 126, 42,0.8)'],
                 borderWidth: 4
               }
           ]
