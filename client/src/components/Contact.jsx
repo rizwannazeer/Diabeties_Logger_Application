@@ -1,4 +1,6 @@
 import { blue } from '@material-ui/core/colors';
+import { Link } from 'react-router-dom';
+
 import React from 'react';
 const ContactUs = () => {
     return ( <div>
@@ -11,7 +13,8 @@ const ContactUs = () => {
          A Keen And Motivated Computer Scientist having special interest in Web Development.
         </p>
         <h4>Website</h4>
-        <h3>www.usmanlive.com</h3>
+       
+        <Link to="https://usmanlive.com/">  <h3>  www.usmanlive.com</h3></Link>
     </div>  );
 }
  
