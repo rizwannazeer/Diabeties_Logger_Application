@@ -14,7 +14,7 @@ const ContactUs = () => {
         </p>
         <h4>Website</h4>
        
-        <Link to="https://usmanlive.com/">  <h3>  www.usmanlive.com</h3></Link>
+        <a href to="https://usmanlive.com/">  <h3>  www.usmanlive.com</h3></a>
     </div>  );
 }
  
