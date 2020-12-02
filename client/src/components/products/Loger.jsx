@@ -20,7 +20,6 @@ const Loger = (props) => {
      }
      React.useEffect(getData,[]);
 
-    // console.log("inside products");
     const handleNewProduct= ()=>{
         props.history.push("/New");
         console.log(props);

@@ -17,18 +17,7 @@ const TopMenu = (props) => {
     return (
     <AppBar position="static">
         <Toolbar>
-            {/* <Typography variant="h6" >
-
-                    <Link className={classes.link} to="/">HOME</Link> 
-            </Typography>
-
-            <Typography variant="h6">
-            <Link className={classes.link} to="/charts">Performance Chart </Link> 
-            </Typography>
-
-            <Typography variant="h6">
-            <Link className={classes.link} to="/ContactUs">Contact Us</Link> 
-            </Typography> */}
+     
 
     
 
