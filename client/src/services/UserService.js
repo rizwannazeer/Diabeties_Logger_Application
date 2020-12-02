@@ -8,7 +8,7 @@ class UserService extends GenericService{
 login=(Email,Password)=>
  new Promise((resolve,reject)=>
  {
-    this.post("http://localhost:4000/users/login",{Email,Password})
+    this.post("https://diabetes-log-api.herokuapp.com/users/login",{Email,Password})
     .then(token=>
         {
         localStorage.setItem("token",token);
@@ -18,7 +18,7 @@ login=(Email,Password)=>
 }) 
 
 
-register=(Name,Email,Password)=>this.post("http://localhost:4000/users/register",{Name,Email,Password});
+register=(Name,Email,Password)=>this.post("https://diabetes-log-api.herokuapp.com/users/register",{Name,Email,Password});
 
 logout=()=>{
     localStorage.removeItem("token");
