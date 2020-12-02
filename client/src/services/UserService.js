@@ -6,7 +6,7 @@ const { default: GenericService } = require("./GenericService");
 class UserService extends GenericService{
  
     
-login=(Email,Password)=>
+ login=(Email,Password)=>
  new Promise((resolve,reject)=>
  {
     this.post("http://localhost:4000/users/login",{Email,Password})
